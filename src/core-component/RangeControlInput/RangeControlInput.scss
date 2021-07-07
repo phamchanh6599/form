@@ -1,0 +1,46 @@
+.RangeControlInput {
+    margin-top: 10px;
+    text-align: center;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__form {
+        margin: 0 5px;
+    }
+
+    &__minus, &__plus { 
+        width: 28px;
+        height: 28px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        background-color: #4066B3;
+        color: white;
+        line-height: 22px;
+        font-size: 26px;
+
+        &:hover {
+            background-color: #043594;
+        }
+    }
+
+    &__input {
+        display: inline-block;
+        background-color: #3765B9;
+        color: white;
+        border: 1px solid #CCC;
+        vertical-align: top;
+        border: 1px solid #c0c0c0;
+        width: 355px;
+        max-width: 100%;
+        padding: 10px 9px 10px 13px;
+        border-radius: 8px;
+        outline: none;
+        width: 220px;
+        height: 20px;
+    }
+}

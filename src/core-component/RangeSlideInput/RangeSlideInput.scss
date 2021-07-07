@@ -1,0 +1,21 @@
+.RangeSlideInput {
+    display: flex;
+
+    &__input {
+        margin: 0 10px;
+        width: 100%;
+    }
+
+    &__minus, &__plus {
+        color: #043594;
+        text-align: center;
+        cursor: pointer;
+        border: 1px solid #4066B3;
+        border-radius: 50%;
+        width: 16px;
+        font-size: 26px;
+        line-height: 26px;
+        height: 30px;
+        padding: 0 6px;
+    }
+}

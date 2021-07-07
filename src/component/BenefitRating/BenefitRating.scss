@@ -1,0 +1,53 @@
+.BenefitRating {
+    background-color: #4066B3;
+    color: white;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    &__accordion {
+        ::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: calc(100% - 50px);
+            height: 1px;
+            background-color: #023694;
+        }
+    }
+
+    &__heading {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    &__plus-icon {
+        display: flex;
+        margin-right: 10px;
+    }
+    
+    &__detail {
+        color: #B9BBB8;
+        display: flex;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    &__benefit {
+        width: 50%;
+    }
+
+    &__name {
+        width: 25%;
+        margin-right: 25px;
+    }
+
+    // Override Accrodian
+    .MuiAccordion-root {
+        border-radius: 0 !important;
+    }
+}

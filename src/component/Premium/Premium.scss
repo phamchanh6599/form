@@ -1,0 +1,51 @@
+.Premium {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__price {
+        color: #B9BBB8;
+        font-size: 15px;
+    }
+
+    &__edit-icon {
+        cursor: pointer;
+        width: 18px;
+        height: 26px;
+    }
+
+    &__Edit {
+
+    }
+
+    &__input {
+        display: flex;
+        align-items: center;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+    }
+
+    &__cancel-button {
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__note {
+        font-size: 12px;
+        line-height: 18px;
+        color: #B9BBB8;
+        width: 370px;
+        margin-top: 25px;
+        display: flex;
+    }
+
+    &__form {
+        display: flex;
+        justify-content: space-between;
+    }
+}

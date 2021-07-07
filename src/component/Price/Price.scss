@@ -1,0 +1,26 @@
+.Price {
+    position: relative;
+    color: #ffffff;
+
+    &__currency {
+        font-size: 22px;
+        vertical-align: top;
+        margin-right: 5px;
+    }
+
+    &__price {
+        font-size: 66px;
+        line-height: 66px;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+    &__type {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.Price-blur {
+    color: #2A64BF;
+}
