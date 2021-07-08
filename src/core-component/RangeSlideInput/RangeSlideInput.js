@@ -53,7 +53,10 @@ export const RangeSlideInput = ({ onChange, value }) => {
           max={1000000}
           step={10000}
           defaultValue={currentValue.current}
-          onChange={(event, newValue) => onChange(newValue)}
+          onChange={(event, newValue) => {
+            onChange(newValue);
+            currentValue.current = newValue;
+          }}
         />
       </div>
       <span className='RangeSlideInput__plus' onClick={() => handleValue(100)}>
